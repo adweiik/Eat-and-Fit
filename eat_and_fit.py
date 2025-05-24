@@ -64,9 +64,9 @@ st.markdown(
     )
 
 # A workaround using st.columns() to move logo and title to the center of the page
-col1, col2, col3, col4, col5, col6, col7, co l8 = st.columns([0.5, 0.5, 1, 0.75, 1, 0.75, 0.5, 0.5])
+col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([0.5, 0.5, 1, 0.75, 1, 0.75, 0.5, 0.5])
 with col4:
-    st.image(image='images\logo.', width=140)
+    st.image(image='images\logo.png', width=140)
 with col5:
     st.markdown("""<br/><h1 style="display: inline;">Eat & Fit</h1>
                     <i style="font-size: 22px;">Weight-Loss Guide</i>
