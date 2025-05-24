@@ -140,7 +140,7 @@ if not st.session_state.page1['is_first_load']:
         case 4:
             body_result = 'obese'
 
-     body == 0:
+    if body == 0:
         st.subheader("You are thin! You should gain weight instead of losing weight!")
     elif body == 1:
         st.subheader("You are in shape! Keep going! :sunglasses:")
